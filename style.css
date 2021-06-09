@@ -21,6 +21,14 @@ body {
     width: 88%;
 }
 
+.card-img {
+    height: 15rem;
+    background-image: url(/images/image-header-mobile.jpg);
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
 .attribution { 
     font-size: 11px; 
     margin-top: 2rem;
