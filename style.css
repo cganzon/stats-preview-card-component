@@ -19,6 +19,7 @@ body {
 .card {
     background-color: hsl(244, 38%, 16%);
     width: 88%;
+    border-radius: 0.5rem;
 }
 
 .card-img {
@@ -27,11 +28,25 @@ body {
     background-color: hsl(277, 64%, 61%);
     background-blend-mode: overlay;
     background-size: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.accent {
+    color:hsl(277, 64%, 61%);
+}
+
+.main-paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-stats p {
+    color: hsl(0, 0%, 100%, 0.6);
 }
 
 .attribution { 
     font-size: 11px; 
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .attribution a { 
