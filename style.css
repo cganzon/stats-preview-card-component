@@ -5,6 +5,7 @@
 }
 
 body {
+    position: relative;
     background-color: hsl(233, 47%, 7%);
     color: hsl(0, 0%, 100%);
     font-size: 15px;
@@ -32,21 +33,38 @@ body {
     border-top-right-radius: 0.5rem;
 }
 
+.header {
+    margin-top: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
 .accent {
     color:hsl(277, 64%, 61%);
 }
 
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 2.5rem;
+}
+
+.card-info {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.card-stats h2 {
+    margin-bottom: 0.2rem;
 }
 
 .card-stats p {
     color: hsl(0, 0%, 100%, 0.6);
+    margin-bottom: 1.75rem;
 }
 
 .attribution { 
     font-size: 11px; 
-    margin-top: 3rem;
+    position: absolute;
+    bottom: 1rem;
 }
 
 .attribution a { 
