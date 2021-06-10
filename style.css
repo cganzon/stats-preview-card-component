@@ -22,7 +22,7 @@ body {
 .card {
     background-color: hsl(244, 38%, 16%);
     width: 88%;
-    max-width: 67.5rem;
+    max-width: 24rem;
     border-radius: 0.5rem;
 }
 
@@ -86,7 +86,7 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1360px) {
     body {
         text-align: left;
     }
@@ -95,6 +95,7 @@ body {
         display: flex;
         flex-direction: row-reverse;
         width: 75%;
+        max-width: 67.5rem;
     }
 
     .card-info {
