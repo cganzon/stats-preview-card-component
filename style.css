@@ -31,11 +31,15 @@ body {
     border-top-right-radius: 0.5rem;
 }
 
-.card-img {
+.mobile-img, .desktop-img {
     width: 100%;
     display: block;
     opacity: 0.75;
     mix-blend-mode: multiply;
+}
+
+.desktop-img {
+    display: none;
 }
 
 .header {
@@ -79,4 +83,58 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1000px) {
+    body {
+        text-align: left;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 75%;
+    }
+
+    .card-info {
+        width: 54%;
+        padding: 2.3rem 4rem 0 4.2rem;
+    }
+
+    .header {
+        font-size: 2.3rem;
+    }
+
+    .main-paragraph {
+        font-size: 0.95rem;
+        width: 90%;
+        margin-bottom: 3.5rem;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .desktop-img, .img-container {
+        display: block;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+    }
+
+    .card-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-stats h2 {
+        margin-bottom: 0.4rem;
+    }
+
+    .card-stats p {
+        font-size: 0.7rem;
+    }
+
+    .attribution {
+        font-size: 0.8rem;
+    }
 }
